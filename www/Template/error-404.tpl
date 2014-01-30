@@ -1,0 +1,1 @@
+<h1><span class="glyphicon glyphicon-exclamation-sign"></span> Error 404 !</h1>

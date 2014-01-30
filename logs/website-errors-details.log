@@ -1,0 +1,88 @@
+
+---------------------------------------------------
+29/01/2014 10:46:42 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  
+PHP_SELF = /frmwk_v1.6.4/www/signup.php
+Warning
+include_once(Function/Tool/redirect.php): failed to open stream: No such file or directory
+l. 214 in C:\wamp\www\frmwk_v1.6.4\www\Module\Base-auth\core.php
+
+
+REFERER = http://localhost/frmwk_v1.6.4/www/signup.php
+
+
+VARIABLES
+email = "test@test.com"
+password = "aaaaaa"
+md5 = "0b4e7a0e5fe84ad35fb5f95b9ceeac79"
+connexion = "1"
+btConnex = "Connexion"
+
+---------------------------------------------------
+29/01/2014 10:46:42 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  
+PHP_SELF = /frmwk_v1.6.4/www/signup.php
+Warning
+include_once(): Failed opening 'Function/Tool/redirect.php' for inclusion (include_path='.;C:\php\pear')
+l. 214 in C:\wamp\www\frmwk_v1.6.4\www\Module\Base-auth\core.php
+
+
+REFERER = http://localhost/frmwk_v1.6.4/www/signup.php
+
+
+VARIABLES
+email = "test@test.com"
+password = "aaaaaa"
+md5 = "0b4e7a0e5fe84ad35fb5f95b9ceeac79"
+connexion = "1"
+btConnex = "Connexion"
+
+---------------------------------------------------
+29/01/2014 12:20:23 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  
+PHP_SELF = /frmwk_v1.6.4/www/signup.php
+E_NOTICE
+Undefined variable: log
+l. 109 in C:\wamp\www\frmwk_v1.6.4\www\Classes\Engine\SPDO.php
+
+
+REFERER = http://localhost/frmwk_v1.6.4/www/signup.php
+
+
+VARIABLES
+email = "pjpoirson@gmail.com"
+password = "bbbbbb"
+md5 = "875f26fdb1cecf20ceb4ca028263dec6"
+connexion = "1"
+btConnex = "Connexion"
+
+---------------------------------------------------
+29/01/2014 12:20:25 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  
+PHP_SELF = /frmwk_v1.6.4/www/signup.php
+Warning
+mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+l. 124 in C:\wamp\www\frmwk_v1.6.4\www\Classes\Engine\SPDO.php
+
+
+REFERER = http://localhost/frmwk_v1.6.4/www/signup.php
+
+
+VARIABLES
+email = "pjpoirson@gmail.com"
+password = "bbbbbb"
+md5 = "875f26fdb1cecf20ceb4ca028263dec6"
+connexion = "1"
+btConnex = "Connexion"

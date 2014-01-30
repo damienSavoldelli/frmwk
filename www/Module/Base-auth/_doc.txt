@@ -1,0 +1,16 @@
+exemple d'appel
+
+$params                             = array();
+$params['label']                    = array();
+$params['label']['email']           = "email";
+$params['label']['password']        = "mot de passe";
+$params['label']['forget_password'] = "Mot de passe oublié ?";
+$params['label']['signup']          = "Inscription";
+$params['label']['signin']          = "Connexion";
+$params['label']['TYPE']            = 'inside';
+$params['link']                     = array();
+$params['link']['forget_password']  = 'recuperation-mot-de-passe.php';
+$params['link']['signup']           = 'inscription.php';
+$params['placeholder']              = true;
+
+$this->load_module('Base-auth', 'MDL_CONNEXION', $params);

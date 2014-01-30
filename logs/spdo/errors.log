@@ -1,0 +1,38 @@
+
+---------------------------------------------------
+29/01/2014 12:15:50 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  
+
+Table: account Classe: Classes\Tool\Account.php Function: testAuth() l.50
+
+Code d'erreur SQLSTATE: 42S02
+Code d'erreur: 1146
+Message: Table 'frmwk.account' doesn't exist
+
+SELECT id FROM account
+                  WHERE password = :password
+                  AND   email    = :email
+                  AND   banni    = 0
+
+
+---------------------------------------------------
+29/01/2014 12:20:25 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  
+
+Table: account Classe: Classes\Tool\Account.php Function: testAuth() l.50
+
+Code d'erreur SQLSTATE: 42S02
+Code d'erreur: 1146
+Message: Table 'frmwk.account' doesn't exist
+
+SELECT id FROM account
+                  WHERE password = :password
+                  AND   email    = :email
+                  AND   banni    = 0
+

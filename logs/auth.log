@@ -1,0 +1,13 @@
+
+---------------------------------------------------
+29/01/2014 10:46:42 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  1 --- startAuthSession(1) l.104 => Démarrage session this->session_id: uhn4rfq6goe0lkle42f27cham0 - insertRecord() l.171
+---------------------------------------------------
+29/01/2014 10:48:24 ::1
+
+  /frmwk_v1.6.4/www/signup.php
+    
+  1 --- startAuthSession(1) l.104 => Il y a déjà une session active en base pour ce compte - Déconnexion des autres comptes => Démarrage session this->session_id: uhn4rfq6goe0lkle42f27cham0 - insertRecord() l.171
