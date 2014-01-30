@@ -16,7 +16,7 @@
     **/
     define('SITE_TITLE',       'FrmWK v1.6.6');
     define('DOMAINE','http://'.$_SERVER['SERVER_NAME'].'/'); //http://localhost
-    define('ROOT',   'frmwk_v1.6.6/www/'); // /frmwrk_v1.6.6/
+    define('ROOT',   'frmwk/www/'); // /frmwk/
 
     define('VERSION',time());    
     define('AUTHOR', ""); 

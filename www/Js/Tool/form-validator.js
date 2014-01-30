@@ -1,10 +1,24 @@
+/* 
+Classes css pour les controles javascript sur les inputs
+    la première est utilisé comme le nom du champs =>  ex: vous_devez_accepter_les_cgu
+    required => chamsp requis pour la validation du form
+    max => caractères max, récupère la valeur de maxlength="25" pour le nombre
+    min => caractères min, récupère la _x_ juste après pour le nombre
+    inf => doit être un nombre inférieur à _x_ situé juste après
+    sup => doit être un nombre supérieur à _x_ situé juste après
+*/
+
+
+
+
+
+
+
 var INACTIF = false;
 
 $(document).ready(function() {
 
 	$('form').bind('submit', function(){
-
-		
 
 		function alertUser(message, supClass, selector)
 		{	
@@ -145,9 +159,9 @@ $(document).ready(function() {
 				    	case 'inf':				    			
 				    			if(form[i].requis==true || $.trim(form[i].value) != ""){
 						       		var nb_inf = classes[c+1].replace(/_/g,"");							       					       		
-						       		if(form[i].value >= nb_inf) {									     
+						       		if(form[i].value > parseInt(nb_inf)) {									     
 									    $('#'+form[i].id.replace(/inp_/,'')+'_FORMGROUP').addClass('has-error');
-									    alertUser('Le champs '+field_label+' doit être inférieur à '+nb_inf, 'danger', $('#'+form[i].id.replace(/inp_/,'error_')));
+									    alertUser('Le champs '+field_label+' doit être inférieur ou égal à '+nb_inf, 'danger', $('#'+form[i].id.replace(/inp_/,'error_')));
 									    // alert('Le champs '+field_label+' doit être inférieur à '+nb_inf);
 									    form[i].focus();
 									    return false;	
@@ -157,9 +171,9 @@ $(document).ready(function() {
 				    	case 'sup':				    			
 				    			if(form[i].requis==true || $.trim(form[i].value) != ""){				    				
 						       		var nb_sup = classes[c+1].replace(/_/g,"");							       						       		
-						       		if(form[i].value <= nb_sup) {		
+						       		if(form[i].value < parseInt(nb_sup)) {		
 						       			$('#'+form[i].id.replace(/inp_/,'')+'_FORMGROUP').addClass('has-error');
-									    alertUser('Le champs '+field_label+' doit être du supérieur à '+nb_sup, 'danger', $('#'+form[i].id.replace(/inp_/,'error_')));
+									    alertUser('Le champs '+field_label+' doit être du supérieur ou égal à '+nb_sup, 'danger', $('#'+form[i].id.replace(/inp_/,'error_')));
 									    // alert('Le champs '+field_label+' doit être du supérieur à '+nb_sup);
 									    form[i].focus();
 									    return false;	
