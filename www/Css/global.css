@@ -5954,3 +5954,8 @@ td.visible-print {
     display: none !important;
   }
 }
+/* #Media Queries
+================================================== */
+/* < 241 T1 */
+/* >=241px et <480px T2 */
+/* >=480px et <768px T3 */
